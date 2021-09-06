@@ -1,0 +1,15 @@
+{
+  "name": "map-reduce-filter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Tom Nagle",
+  "license": "MIT",
+  "dependencies": {
+    "faker": "^5.5.3"
+  },
+  "scripts": {
+    "map": "nodemon map.js",
+    "filter": "nodemon filter.js",
+    "reduce": "nodemon reduce.js"
+  }
+}
